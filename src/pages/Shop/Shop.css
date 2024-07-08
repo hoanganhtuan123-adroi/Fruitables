@@ -1,0 +1,73 @@
+.shop {
+    margin: 160px 0;
+    padding: 40px 0;
+}
+
+.shop .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.shop-inner {
+    padding: 48px 0;
+}
+
+.shop-header {
+    padding: 48px 12px;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url("../../images/ShopPage/headerPage.jpg") no-repeat center / cover;
+}
+
+.shop--page {
+    margin-bottom: 8px;
+    font-size: 4rem;
+    font-weight: 800;
+    font-family: var(--secondary-font);
+}
+
+.shop--link {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--primary-color);
+}
+
+.shop--link:hover {
+    color: var(--primary-color);
+    opacity: 0.7;
+}
+
+.shop--link.active {
+    color: #fff;
+}
+
+.nav-item:first-child .shop--link::before {
+    content: "";
+}
+
+.shop--link::before {
+    content: "/";
+    margin-right: 10px;
+    color: #6c757d;
+}
+
+.shop--title {
+    font-family: var(--secondary-font);
+    margin-bottom: 24px;
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #45595b;
+}
+
+.shop-form {
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.shop-form--input {
+    padding: 24px 16px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}

@@ -1,0 +1,132 @@
+.footer {
+    margin-top: 48px;
+    padding-top: 48px;
+    background: #45595b;
+}
+
+.footer-top--logo {
+    font-size: 4rem;
+    font-family: var(--secondary-font);
+    font-weight: 600;
+    line-height: 1.2;
+    color: var(--primary-color);
+}
+
+.footer-top--desc {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--secondary-color);
+}
+
+.footer-form {
+    position: relative;
+}
+
+.footer--input {
+    padding: 16px 24px;
+    border: none;
+    outline: none;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #747d88;
+}
+
+.footer-btn {
+    position: absolute;
+    right: -1px;
+    padding: 16px 24px;
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: #fff;
+    background: var(--primary-color);
+    white-space: nowrap;
+    transition: 0.5s linear;
+}
+
+.footer-btn:hover {
+    background: var(--secondary-color);
+    color: #fff;
+}
+
+.footer-social--link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
+    transition: 0.3s linear;
+}
+
+.footer-social--link:hover {
+    background: var(--secondary-color);
+    color: #000;
+}
+
+.footer-bottom {
+    margin: 30px 0;
+    padding-top: 20px;
+    border-top: 1px solid var(--secondary-color);
+}
+
+.footer-item--title {
+    margin-bottom: 16px;
+    font-family: var(--secondary-font);
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.footer-item--link,
+.footer-item--desc {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 35px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-item--btn {
+    margin-top: 24px;
+    padding: 8px 24px;
+    line-height: 1.5;
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: var(--primary-color);
+    border: 1px solid var(--secondary-color);
+    transition: 0.3s linear;
+}
+
+.footer-item--btn:hover {
+    background: var(--secondary-color);
+    color: #fff;
+}
+
+.footer-item--link:hover {
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+.footer-copyright {
+    padding: 24px 12px;
+}
+
+.footer-copyright--desc {
+    color: #f4f6f8;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.footer-copyright-site {
+    color: var(--primary-color);
+}
+
+.footer-copyright-site__underline {
+   border-bottom: 1px solid #dee2e6;
+}

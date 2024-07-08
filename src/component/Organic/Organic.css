@@ -1,0 +1,22 @@
+.organic {
+    padding: 48px 0;
+    margin: 48px 0;
+}
+
+.organic--header {
+    font-family: var(--secondary-font);
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #45595b;
+}
+
+.organic-item {
+    width: 260px;
+    overflow: hidden;
+}
+
+.organic-item img {
+    width: 100%;
+    object-fit: cover;
+}

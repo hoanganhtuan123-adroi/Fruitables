@@ -1,0 +1,86 @@
+.slick-slide {
+    margin: 10px;
+}
+
+.slick-list {
+    height: 500px;
+}
+
+.slick-inner {
+    position: relative;
+    margin: 12px 24px !important;
+    width: 270px;
+    overflow: hidden;
+    border: 1px solid var(--primary-color);
+}
+
+.slick-img {
+    overflow: hidden;
+}
+
+.slick--thumb {
+    object-fit: cover;
+    transition: 0.3s linear;
+}
+
+.slick--thumb:hover {
+    scale: 1.3;
+}
+
+.slick--badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 4px 16px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    background: var(--primary-color);
+}
+
+.slick-box {
+    padding: 24px;
+}
+
+.slick--tile {
+    margin-bottom: 8px;
+    font-family: var(--secondary-font);
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #45595b;
+}
+
+.slick--desc {
+    margin-bottom: 16px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #747d88;
+}
+
+.slick--price {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #45595b;
+}
+
+.fa-shopping-bag {
+    color: var(--primary-color);
+}
+
+.slick--btn {
+    margin-top: 6px;
+    padding: 6px 16px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    border: 1px solid var(--secondary-color);
+    transition: 0.3s linear;
+}
+
+.slick--btn:hover {
+    background: var(--secondary-color);
+    color: #fff;
+}

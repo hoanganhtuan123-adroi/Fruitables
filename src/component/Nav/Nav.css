@@ -1,0 +1,139 @@
+.fixed {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    background: #fff;
+    transition: 0.3s linear;
+}
+
+.header-top {
+    background: var(--primary-color);
+    border-radius: 230px 100px;
+}
+
+.nav-brand:hover {
+    color: var(--primary-color);
+}
+
+.fa-location-dot,
+.fa-envelope {
+    margin-right: 8px;
+    color: var(--secondary-color);
+}
+
+.header-top--link > span {
+    transition: 0.25s linear;
+}
+.header-top--link:hover > span {
+    color: var(--secondary-color);
+}
+
+.header-bot--brand {
+    font-weight: 800;
+    font-size: 4rem;
+    color: var(--primary-color);
+}
+
+/* Nav */
+
+.nav-item--link.active {
+    color: var(--primary-color);
+}
+
+.nav-item--link {
+    color: rgba(0, 0, 0, 0.55);
+    transition: 0.3s ease-in;
+}
+
+.nav-item--link:hover {
+    color: var(--primary-color);
+}
+
+.dropdown-menu {
+    display: none;
+}
+
+.btn-dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.list-dtl {
+    width: 150px;
+    border: none;
+    outline: none;
+    background: rgba(108, 117, 125, 0.3);
+}
+
+.list-dtl .dropdown-item {
+    transition: 0.2s linear;
+}
+
+.list-dtl .dropdown-item:hover {
+    color: var(--primary-color);
+    background: var(--secondary-color);
+}
+
+.navbar-btn-search {
+    width: 44px;
+    height: 44px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 50%;
+    background: #fff;
+    transition: 0.3s linear;
+}
+
+.navbar-btn-search:hover {
+    background: var(--secondary-color);
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.fa-bars,
+.fa-magnifying-glass,
+.fa-bg-shopping__large,
+.fa-user {
+    font-weight: 900;
+    color: var(--primary-color);
+}
+
+.fa-bg-shopping__large,
+.fa-user {
+    font-size: 32px;
+}
+
+.fa-bag-shopping .badge {
+    color: #45595b;
+}
+
+.fa-bag-shopping {
+    position: relative;
+}
+
+.bg-warning {
+    position: absolute;
+    top: -4px;
+    right: -8px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .hide-on-pc {
+        display: none !important;
+    }
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+}
+/* Modal */

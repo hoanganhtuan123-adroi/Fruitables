@@ -1,0 +1,70 @@
+.feedback .slick-list {
+    height: 300px;
+}
+
+.feedback {
+    padding: 48px 0;
+}
+
+.feedback-inner {
+    padding: 48px 0;
+}
+
+.feedback--header,
+.feedback--title {
+    margin-bottom: 8px;
+    font-size: 2rem;
+    font-family: var(--secondary-font);
+    font-weight: 600;
+    line-height: 1.2;
+    color: var(--primary-color);
+}
+
+.feedback--header {
+    margin-bottom: 48px;
+    font-size: 4.8rem;
+    font-weight: 800;
+    color: #45595b;
+}
+
+.feedback-slider {
+    width: 545px !important;
+    padding: 24px;
+}
+
+.fa-quote-right {
+    color: var(--secondary-color);
+    right: 0;
+}
+
+.feedback-slider--desc {
+    margin-bottom: 48px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--secondary-color);
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #747d88;
+}
+
+.feedback--avt {
+    width: 100px;
+    height: 100px;
+}
+
+.feedback--name {
+    margin-bottom: 8px;
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #45595b;
+    font-family: var(--secondary-font);
+}
+
+.feedback--pos {
+    margin-bottom: 16px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #747d88;
+}

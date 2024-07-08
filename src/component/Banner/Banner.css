@@ -1,0 +1,82 @@
+.banner {
+    margin: 48px 0;
+    background: var(--secondary-color);
+}
+
+.banner-box {
+    display: flex;
+    padding: 48px 12px;
+}
+
+.banner-left,
+.banner-right {
+    width: calc(100% / 2);
+}
+
+.banner-left {
+    padding: 24px 0;
+}
+
+.banner--title,
+.banner--header {
+    font-family: var(--secondary-font);
+    font-size: 6.4rem;
+    color: #fff;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.banner--title {
+    display: inline-block;
+    margin-bottom: 24px;
+    font-weight: 400;
+    color: #45595b;
+}
+
+.banner--desc {
+    margin-bottom: 24px;
+    font-size: 1.6rem;
+    color: #45595b;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.banner--btn {
+    padding: 16px 48px;
+    color: #45595b;
+    font-size: 1.6rem;
+    font-weight: 600;
+    transition: 0.3s linear;
+}
+
+.banner--btn:hover {
+    background: var(--primary-color);
+}
+
+.banner-price {
+    width: 140px;
+    height: 140px;
+    top: 0;
+}
+
+.banner-price--number {
+    margin-bottom: 8px;
+    font-size: 10rem;
+    font-family: var(--secondary-font);
+    font-weight: 600;
+    line-height: 1.2;
+    color: #45595b;
+}
+
+.banner-price--quantity span {
+    font-size: 3.2rem;
+    font-family: var(--secondary-font);
+    font-weight: 600;
+    line-height: 1.2;
+    color: #45595b;
+}
+
+.banner-price--quantity span:last-child {
+    font-size: 2.4rem;
+    color: #6c757d;
+}

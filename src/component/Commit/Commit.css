@@ -1,0 +1,29 @@
+.commit-box {
+    padding: 48px;
+}
+
+
+.commit-box--user {
+    margin-bottom: 10px;
+    font-size: 75px;
+    color: var(--secondary-color);
+}
+
+.commit-title {
+    margin: 10px 0;
+    font-family: var(--secondary-font);
+    font-size: 2.4rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+.commit-num {
+    font-family: var(--secondary-font);
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #45595b;
+}
